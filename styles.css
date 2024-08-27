@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+:root {
+    font-family: "Open Sans", sans-serif;;
+}
+
+#page {
+    box-sizing: border-box;
+    margin: 88px auto;
+    width: 1120px;
+}
+
+img {
+    border-radius: 28px;
+}
+
+
+.headline {
+    color: #E1624F;
+    text-align: left top;
+    font-weight: bold;
+}
+.subtitle {
+    font-style: italic;
+    text-align: center;
+}
+h1 {
+    font: bold 36px;
+
+}
+
+h2 {
+    font: bold 32px;
+}
+
+h3 {
+    font: bold 28px;
+}
