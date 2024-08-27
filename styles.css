@@ -7,34 +7,119 @@
 }
 
 #page {
-    box-sizing: border-box;
     margin: 88px auto;
     width: 1120px;
 }
 
-img {
-    border-radius: 28px;
+body {
+    background-color: #F5F4F0;
+}
+p {
+    color: #333333;
 }
 
+main img {
+    border-radius: 28px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    height: 350;
+}
 
+.container {
+    margin-bottom: 24px;
+}
 .headline {
     color: #E1624F;
     text-align: left top;
     font-weight: bold;
+    margin-bottom: 8px;
 }
 .subtitle {
     font-style: italic;
     text-align: center;
+    margin-bottom: 40px;
+
 }
+
+
 h1 {
-    font: bold 36px;
+    font-size: 36px;
+    font-weight: bold;
+    
 
 }
 
 h2 {
-    font: bold 32px;
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: 32px;
 }
 
 h3 {
-    font: bold 28px;
+    font-weight: bold;
+    font-size: 28px;
+    margin-bottom: 4px;
 }
+.divisor {
+    border: 1px solid;
+    border-color: #D9D9D9;
+    margin-bottom: 64px;
+}
+
+.travel-sugestion {
+    color: #333333;
+    font-weight: bold;
+}
+
+/* suggestion font style */
+.history {
+    color:#0C51A7;
+}
+
+.couple {
+   color: #591B98; 
+}
+
+.family {
+    color: #E5245E;
+}
+
+.budget {
+   color: #E95E10;
+}
+
+.history, .budget, .couple, .family {
+    font-weight: bold;
+}
+
+.description {
+    margin-bottom: 20px;
+}
+
+.final-text {
+    text-align: center;
+    margin-top: 0px auto 40px;
+}
+
+footer {
+    text-align: center;
+    margin: 65px auto;
+}
+
+footer img {
+    vertical-align: middle;
+}
+
+li {
+    margin: auto 40px;
+}
+ol > li::marker {
+    font-weight: bold;
+    font-size: 28px;
+  }
+
+  .divisor-footer {
+    border: 1px solid;
+    border-color: #D9D9D9;
+    margin: 40px auto;
+  }
